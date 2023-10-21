@@ -3,7 +3,7 @@ export default function Page() {
   return (
     <div>
       <h2>Hello, welcome to nextjs</h2>
-      <Link href="/about">About</Link>
+      <Link href="/">home</Link>
     </div>
   )
 }
