@@ -1,9 +1,22 @@
-import Link from "next/link"
-export default function Page() {
+import NavBar from "@/components/NavBar";
+import TopIntro from "components/TopIntro";
+import { HomeInputForm } from "components/HomeInputForm";
+import { HeroSection } from "components/HeroSection";
+import { JobHeroSection } from "@/components/JobHeroSection";
+import AsideElem from "@/components/AsideElem";
+import { WhoIsLinkedInFor } from "components/WhoIsLinkedInFor";
+import { Footer } from "@/components/footer";
+export default function HomePage() {
   return (
-    <div>
-      <h2>Hello, welcome to nextjs</h2>
-      <Link href="/about">About</Link>
-    </div>
+    <>
+      <NavBar />
+      <TopIntro />
+      <HomeInputForm />
+      <HeroSection />
+      <JobHeroSection />
+      <AsideElem />
+      <WhoIsLinkedInFor />
+      <Footer />
+    </>
   )
 }
