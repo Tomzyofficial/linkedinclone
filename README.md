@@ -6,3 +6,4 @@ I tried as much as I could to make it mobile friendly but if you experience some
 with the UI haha kindly bear with me
 # Desktop ?
 No I didn't consider the desktop version yet as my first idea is to set up the mobile version
+and I might not be doing it in this project unless there's need for it in the future
